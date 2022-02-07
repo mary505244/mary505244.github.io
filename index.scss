@@ -1,0 +1,465 @@
+*{
+    /*   border: solid 1px black; */
+      position: relative;
+    }
+    html, body{
+      width: 100%; height: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+    body{
+      background-color: #D1D1D1;
+      box-sizing: border-box;
+    }
+    .circle{
+      position: absolute;
+      border-radius: 100%;
+      background-color: #6B6B6B;
+      width: 15px; height: 15px;
+    }
+    .title{
+      top: 25px;
+      left: 30px;
+      
+      font-size: 21px;
+      letter-spacing: 1px;
+    }
+    .title_ex, .subtitle_ex, .text_ex{
+      left: 80px;
+      top: 40px;
+      width: 380px;
+    }
+    .title_ex{
+      padding-top: 15px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #3E9A95;
+    }
+    .subtitle_ex{
+      font-weight: 600;
+    }
+    .resume{
+      width: 297mm; height: 210mm;
+      background-color: #EFEFEF;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      
+      font-family: 微軟正黑體;
+      font-size: 14px;
+      color: #6B6B6B;
+      letter-spacing: 2.2px;
+      line-height: 27px;
+      
+      box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    }
+    .left{
+      height: 210mm; width: 81mm;
+      background-color: #ADD8D8;
+    }
+    .middle{
+      height: 210mm; width: 135mm;
+      top: -210mm;
+      left: 81mm;
+    }
+    .right{
+      height: 210mm; width: 81mm;
+      top: -420mm;
+      left: 216mm;
+      background-color: #727272;
+    }
+    .person{
+      height: 85mm;
+    }
+    .profileFrame{
+      position: absolute;
+      
+      width: 51mm; height: 51mm;
+      left: 60px;
+      top: 40px;
+      
+      background-color: #EFEFEF;
+    }
+    .profile{
+      width: 45mm; height: 45mm;
+      margin-left: auto;
+      margin-right: auto;
+      top: 10px;
+      
+      border-radius: 100%;
+      overflow: hidden;
+    }
+    .name{
+      top: 255px;
+      left: 90px;
+      
+      font-size: 27px;
+      letter-spacing: 22px;
+      font-weight: 600;
+    }
+    .englishName{
+      top: 265px;
+      left: 93px;
+      
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .aboutMe{
+      height: 70mm;
+    }
+    .label_aboutMe{
+      position: absolute;
+      top: 23px;
+      border: solid 1px #EFEFEF;
+      width: 160px; height: 28px; 
+      background-color: #EFEFEF;
+    }
+    .tri_aboutMe{
+      position: absolute;
+      top: 23px; left: 162px;
+      border-top: 15px solid #ADD8D8;
+      border-bottom: 15px solid #ADD8D8;
+      border-left: 25px solid #EFEFEF;
+      display:inline-block;
+    }
+    .subtitle_aboutMe{
+      font-size: 16px;
+      font-weight: 600;
+      top: 37px;
+      left: 37px;
+    }
+    .text{
+      top: 42px;
+      left: 40px;
+      width: 240px;
+    }
+    .contact{
+      height: 55mm;
+    }
+    .label_contact{
+      position: absolute;
+      top: 23px;
+      border: solid 1px #EFEFEF;
+      width: 160px; height: 28px; 
+      background-color: #EFEFEF;
+    }
+    .tri_contact{
+      position: absolute;
+      top: 23px; left: 162px;
+      border-top: 15px solid #ADD8D8;
+      border-bottom: 15px solid #ADD8D8;
+      border-left: 25px solid #EFEFEF;
+      display:inline-block;
+    }
+    .phoneCircle{
+      position: absolute;
+      top: 70px;
+      left: 30px;
+      width: 30px; height: 30px;
+      background-color: #6B6B6B;
+    }
+    .phoneIcon{
+      position: absolute;
+      top: 75px;
+      left: 35px;
+    }
+    .phone{
+      top: 45px;
+      left: 70px;
+      
+      letter-spacing: 1px;
+    }
+    .mailCircle{
+      position: absolute;
+      top: 110px;
+      left: 30px;
+      width: 30px; height: 30px;
+      background-color: #6B6B6B;
+    }
+    .mailIcon{
+      position: absolute;
+      top: 115px;
+      left: 35px;
+    }
+    .mail{
+      top: 57px;
+      left: 70px;
+      
+      letter-spacing: 1px;
+    }
+    .experience{
+      height: 210mm;
+    }
+    .label_experience{
+      position: absolute;
+      top: 23px;
+      border: solid 1px #ADD8D8;
+      width: 180px; height: 28px; 
+      background-color: #ADD8D8;
+    }
+    .tri_experience{
+      position: absolute;
+      top: 23px; left: 182px;
+      border-top: 15px solid #EFEFEF;
+      border-bottom: 15px solid #EFEFEF;
+      border-left: 25px solid #ADD8D8;
+      display:inline-block;
+    }
+    .line{
+      position: absolute;
+      top: 70px; left: 40px;
+      background-color: #6B6B6B;
+      width: 3px; height: 700px;
+    }
+    .circle_1{
+      left: 34px;
+      top: 88px;
+    }
+    .circle_2{
+      left: 34px;
+      top: 262px;
+    }
+    .circle_3{
+      left: 34px;
+      top: 435px;
+    }
+    .circle_4{
+      left: 34px;
+      top: 608px;
+    }
+    .personalSkills{
+      height: 132mm;
+    }
+    .label_personalSkills{
+      position: absolute;
+      top: 23px;
+      border: solid 1px #EFEFEF;
+      width: 230px; height: 28px; 
+      background-color: #EFEFEF;
+    }
+    .tri_personalSkills{
+      position: absolute;
+      top: 23px; left: 222px;
+      border-top: 15px solid #727272;
+      border-bottom: 15px solid #727272;
+      border-left: 25px solid #EFEFEF;
+      display:inline-block;
+    }
+    .skill{
+      color: #EFEFEF;
+      top: 50px;
+      
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      
+      padding: 55px;
+      text-align: center;
+    }
+    .outerCircle{
+      left: 97px;
+      width: 80px; height: 80px;
+      border: solid 15px #EFEFEF;
+      background-color: rgba(0,0,0,0)
+    }
+    .oc_1{
+      top: 85px;
+    }
+    .oc_2{
+      top: 225px;
+    }
+    .oc_3{
+      top: 365px;
+    }
+    .innerCircle{
+      left: 102px;
+      width: 92px; height: 92px;
+      border: solid 4px #78BAB8;
+      background-color: rgba(0,0,0,0);
+    }
+    .ic_1{
+      top: 90px;
+    }
+    .coverCircle_11{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 15px; height: 10px;
+    /*   transform: rotate(-40deg); */
+      top: -5px; left: 32px;
+    }
+    .coverCircle_12{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 15px; height: 10px;
+      transform: rotate(-20deg);
+      top: -7px; left: 27px;
+    }
+    .ic_2{
+      top: 230px;
+    }
+    .coverCircle_21{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 15px; height: 10px;
+    /*   transform: rotate(-40deg); */
+      top: -5px; left: 32px;
+    }
+    .coverCircle_22{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 29px; height: 10px;
+      transform: rotate(-35deg);
+      left: 10px;
+    }
+    .coverCircle_23{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 20px; height: 10px;
+      transform: rotate(-50deg);
+      top: 10px; 
+    }
+    .ic_3{
+      top: 370px;
+    }
+    .coverCircle_31{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 15px; height: 10px;
+    /*   transform: rotate(-40deg); */
+      top: -5px; left: 32px;
+    }
+    .coverCircle_32{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 29px; height: 10px;
+      transform: rotate(-35deg);
+      left: 10px;
+    }
+    .coverCircle_33{
+      position: absolute;
+      background-color: #EFEFEF;
+      width: 20px; height: 10px;
+      transform: rotate(-50deg);
+      top: 10px; 
+    }
+    .proSkills{
+      height: 78mm;
+    }
+    .label_proSkills{
+      position: absolute;
+      top: 23px;
+      border: solid 1px #EFEFEF;
+      width: 160px; height: 28px; 
+      background-color: #EFEFEF;
+    }
+    .tri_proSkills{
+      position: absolute;
+      top: 23px; left: 152px;
+      border-top: 15px solid #727272;
+      border-bottom: 15px solid #727272;
+      border-left: 25px solid #EFEFEF;
+      display:inline-block;
+    }
+    .proSkill{
+      color: #EFEFEF;
+      top: 35px; left: 28px;
+      
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      padding: 4px;
+    }
+    .outterLine{
+      background-color: #EFEFEF;
+      width: 130px; height: 12px;
+      
+      top: -185px; left: 132px;
+      margin-top: 23px
+    }
+    .leftCircle{
+      left: -10px;
+      border-radius: 100% 0 0 100%;
+      background-color: #EFEFEF;
+      width: 12px; height: 12px;
+    }
+    .rightCircle{
+      top: -12px; left: 130px;
+      border-radius: 0 100% 100% 0;
+      background-color: #EFEFEF;
+      width: 12px; height: 12px;
+    }
+    .in_left{
+      position: absolute;
+      left: -4px;
+      border-radius: 100% 0 0 100%;
+      background-color: #78BAB8;
+      width: 4px; height: 4px;
+    }
+    .in_right{
+      position: absolute;
+      border-radius: 0 100% 100% 0;
+      background-color: #78BAB8;
+      width: 4px; height: 4px;
+    }
+    .innerLine_PS{
+      position: absolute;
+      top: 52px; left: 131px;
+      background-color: #78BAB8;
+      width: 110px; height: 4px;
+      margin-top: 23px
+    }
+    .right_PS{
+      left: 110px;
+    }
+    .innerLine_AI{
+      position: absolute;
+      top: 87px; left: 131px;
+      background-color: #78BAB8;
+      width: 123px; height: 4px;
+      margin-top: 23px
+    }
+    .right_AI{
+      left: 123px;
+    }
+    .innerLine_ID{
+      position: absolute;
+      top: 121.5px; left: 131px;
+      background-color: #78BAB8;
+      width: 103px; height: 4px;
+      margin-top: 23px
+    }
+    .right_ID{
+      left: 103px;
+    }
+    .innerLine_HTML{
+      position: absolute;
+      top: 157px; left: 131px;
+      background-color: #78BAB8;
+      width: 93px; height: 4px;
+      margin-top: 23px
+    }
+    .right_HTML{
+      left: 93px;
+    }
+    .innerLine_CSS{
+      position: absolute;
+      top: 192px; left: 131px;
+      background-color: #78BAB8;
+      width: 93px; height: 4px;
+      margin-top: 23px
+    }
+    .right_CSS{
+      left: 93px;
+    }
+    .innerLine_JS{
+      position: absolute;
+      top: 227px; left: 131px;
+      background-color: #78BAB8;
+      width: 93px; height: 4px;
+      margin-top: 23px
+    }
+    .right_JS{
+      left: 93px;
+    }

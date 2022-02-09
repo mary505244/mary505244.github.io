@@ -4,160 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="index.css" rel="stylesheet">  
+    <title>My Resume</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"> 
 </head>
 <body>
-    <div class="resume">
-        <div class="left">
-          <div class="person">
-            <div class="circle profileFrame">
-                  <div class="profile">
-                    <img src="https://i.imgur.com/L55KjM5.jpg" width="175px"/>
-              </div>
+	<div class="wrapper">
+        <!-- 左側menu -->
+        <div class="left-content-container">
+            <div class="left-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <span >My</span>
+                            <span>Resume</span>   
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Portfolio">Portfolio</a></li>
+                            <li><a href="#WorkExperience">Work Experience</a></li>
+                            <li><a href="#Education">Education</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="left-footer">
+                        <div class="copy-rights">Copyright © 2022 Annie٩(๑❛ᴗ❛๑)۶.</div>
+                    </div>
             </div>
-            <div class="name">劉紫伶</div>
-            <div class="englishName">Tzu-Ling Liu</div>
-          </div>
-      
-          <div class="aboutMe">
-            <div class="label_aboutMe"></div>
-            <div class="tri_aboutMe"></div>
-            <div class="title title_aboutMe">ABOUT ME</div>
-            <div class="subtitle_aboutMe" style="color: rgb(221, 27, 27);">「設計思考，思考設計」</div>
-            <div class="text">樂於學習新知識，獲取新觀念。熱衷於透過溝通與設計思考，透析使用者需求，並在設計時，深入思考每個細節所帶給用戶的體驗感受，致力於設計出既貼近使用者又富有美感的產品。</div>
-          </div>
-      
-          <div class="contact">
-            <div class="label_contact"></div>
-            <div class="tri_contact"></div>
-            <div class="title title_contact">CONTACT</div>
-            <div class="circle phoneCircle"></div>
-            <div class="phoneIcon">
-              <img src="https://eastasia1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fnccuedutw-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!TD7YDKuYOEizxO-R76AO38JZKGa3BMFJt6QUAT6yXuSkqKkbUTuqSp_4rrkXHta9%2Fitems%2F01FI6CFABUJ737G5X6LZF2GOGM6IN674PI%3Fversion%3DPublished&encodeFailures=1&ctag=%22c%3A%7BF3F74F34-FE76-4B5E-A338-CCF21BEFF1E8%7D%2C2%22&srcWidth=&srcHeight=&width=1919&height=779&action=Access" width=20px>
-            </div>
-            <div class="phone">(+866)966121046</div>
-            <div class="circle mailCircle"></div>
-            <div class="mailIcon">
-              <img src="https://eastasia1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fnccuedutw-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!TD7YDKuYOEizxO-R76AO38JZKGa3BMFJt6QUAT6yXuSkqKkbUTuqSp_4rrkXHta9%2Fitems%2F01FI6CFAGCDH325BDR4BA32E4H234X2GPD%3Fversion%3DPublished&encodeFailures=1&ctag=%22c%3A%7BAEF719C2-7184-41E0-BD13-87D6F97D19E3%7D%2C3%22&srcWidth=&srcHeight=&width=1919&height=779&action=Access" width= "20px">
-            </div>
-            <div class="mail">tzuling121022@gmail.com</div>
-          </div>
         </div>
-        
-        <div class="middle">
-          <div class="experience">
-            <div class="label_experience"></div>
-            <div class="tri_experience"></div>
-            <div class="title title_experience">EXPERIENCES</div>
-            <div class="line"></div>
-            <div class="circle circle_1"></div>
-            <div class="circle circle_2"></div>
-            <div class="circle circle_3"></div>
-            <div class="circle circle_4"></div>
-            <div class="title_ex" style="color: rgb(221, 27, 27);">喜愛分析，設計思考</div>
-            <div class="subtitle_ex">政治大學｜資訊管理學系</div>
-            <div class="text_ex">大學期間，系統分析與設計這堂課實作了系統設計的過程，在客戶需求分析與製作原型時，發現自己熱愛研究如何讓系統介面更貼近使用者，讓系統容易使用且美感提升。</div>
-            <div class="title_ex">善於合作，創新發想</div>
-            <div class="subtitle_ex">政大商院生涯大使｜設計部</div>
-            <div class="text_ex">曾加入商院生涯大使－設計部。善於和夥伴共同發想<br>、協調設計構思。致力於在設計上發揮創意，其中，改造傳單，利用卡片翻頁式結合設計情境造就驚喜感的發想，增加在活動宣傳上的話題。</div>
-            <div class="title_ex">增加經驗，增進自我</div>
-            <div class="subtitle_ex">Peper機器人黑客松創意競賽｜優等</div>
-            <div class="text_ex">透過商業競賽，實作系統分析與設計，增加經驗並加以學習。除此之外，在打工期間，幫好日子有限公司發想行銷專案，負責社群推廣與圖文製作，結合設計提升各項能力。</div>
-            <div class="title_ex">主動學習，發揮所長</div>
-            <div class="subtitle_ex">熱愛設計，創新設計，玩設計</div>
-            <div class="text_ex">在準備申請此項職位期間，仍不斷增進工作所需能力<br>，提升自我專業技能。期待未來能在公司中發揮所長<br>，結合客戶需求、創新構想，設計出傑出的藝術品，為公司帶來價值。</div>
-          </div>
+
+        <div class="right-content-container">   
+            <div class="main-content">
+                    <!-- <div class="d-flex-align-center"> -->
+                        <div class="page" id="Home">
+                            <div class="upperpage" >
+                                <div class="sec-title">
+                                    <div class="pg-sub-title">Home</div>
+                                    <div class="pg-title">My Profile</div>
+                                </div>
+                            </div>
+                            <div class="lowerpage" >
+                                <div class="user-img "> 
+                                    <div class="amoeba"></div>
+                                    <img class="photo" src="me.jpg">  
+                                    <div class="social-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                                            <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+
+                                        </ul>
+                                    </div> 
+                                </div>
+                                <div class="user-profile ">
+                                    <div class="profile-details">
+                                        <p class="slogan english-slogan en-anim-typewriter">Whatever is worth doing is worth doing well  : )</p>  
+                                        <p class="slogan chinese-slogan cn-anim-typewriter">- 立志將前端美感與後端邏輯交融，打造極具巧心的作品</p>  
+
+                                        <!-- Do one thing at a time, and do well. -->
+                                        <!-- Whatever is worth doing is worth doing well。任何值得做的事就值得把它做好！ -->
+                                        <div class="sm-text ">HELLO EVERYBODY, I AM</div>
+                                        <div class="name">Pavan Ramshetty</div>
+                                        <div class="role">前端工程師</div>
+                                    </div>
+                                <div class="text">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</div>
+                                    <div class="pr-list">
+                                        <ul>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i> 90000XXXXX / 90XXXXXXXX</li>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i> xxxxxxxxxxxxxx@gmail.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 黃芳儀annie  立志將前端美感與後端邏輯交融，打造極具巧心的作品。
+                        FB git連結 信箱 興趣 (可用圖標:音樂 電玩 美 獵奇) -->
+
+
+                        <div class="page" id="About">
+                            <div class="upperpage" >
+                                <div class="sec-title">
+                                    <div class="pg-sub-title">About</div>
+                                    <div class="pg-title">My Profile</div>
+                                </div>
+                            </div>
+                            <div class="lowerpage" >
+                                <div class="user-img "> 
+                                    <div class="amoeba"></div>
+                                    <img class="photo" src="me.jpg">
+                                    <div class="social-icons">
+                                        <ul>
+                                            <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                                            <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+
+                                        </ul>
+                                    </div> 
+                                </div>
+                                <div class="user-profile">
+                                    <div class="pro-details">
+                                        <p class="line-1 anim-typewriter">Hello World !</p>  
+                                        <div class="sm-text ">HELLO EVERYBODY, I AM</div>
+                                        <div class="name">Pavan Ramshetty</div>
+                                        <div class="role">UI Developer</div>
+                                    </div>
+                                <div class="text">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</div>
+                                    <div class="pr-list">
+                                        <ul>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i> xxxxxxxxxxxxxx@gmail.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
         </div>
-        
-        <div class="right">
-          <div class="personalSkills">
-            <div class="label_personalSkills"></div>
-            <div class="tri_personalSkills"></div>
-            <div class="title title_personalSkills">PERSONAL SKILLS</div>
-            <div class="skill">ATTITUDE</div>
-            <div class="circle outerCircle oc_1 "></div>
-            <div class="circle innerCircle ic_1">
-              <div class="coverCircle_11"></div>
-              <div class="coverCircle_12"></div>
-            </div>
-            <div class="skill">TEAM<br>WORK</div>
-            <div class="circle outerCircle oc_2"></div>
-            <div class="circle innerCircle ic_2">
-              <div class="coverCircle_21"></div>
-              <div class="coverCircle_22"></div>
-              <div class="coverCircle_23"></div>
-            </div>
-            <div class="skill">CREATIVE</div>
-            <div class="circle outerCircle oc_3"></div>
-            <div class="circle innerCircle ic_3">
-              <div class="coverCircle_31"></div>
-              <div class="coverCircle_32"></div>
-              <div class="coverCircle_33"></div>
-            </div>
-          </div>    
-      
-          <div class="proSkills">
-            <div class="label_proSkills"></div>
-            <div class="tri_proSkills"></div>
-            <div class="title title_proSkills">PRO SKILLS</div>
-            <div class="proSkill">Photoshop</div>
-            <div class="proSkill">Illustrator</div>
-            <div class="proSkill">InDesign</div>
-            <div class="proSkill">HTML</div>
-            <div class="proSkill">CSS</div>
-            <div class="proSkill">Javascript</div>
-            <div class="outterLine">
-              <div class="leftCircle"></div>
-              <div class="rightCircle"></div>
-            </div>
-            <div class="outterLine">
-              <div class="leftCircle"></div>
-              <div class="rightCircle"></div>
-            </div>
-            <div class="outterLine">
-              <div class="leftCircle"></div>
-              <div class="rightCircle"></div>
-            </div>
-            <div class="outterLine">
-              <div class="leftCircle"></div>
-              <div class="rightCircle"></div>
-            </div>
-            <div class="outterLine">
-              <div class="leftCircle"></div>
-              <div class="rightCircle"></div>
-            </div>
-            <div class="outterLine">
-              <div class="leftCircle"></div>
-              <div class="rightCircle"></div>
-            </div>
-            <div class="innerLine_PS">
-              <div class="in_left"></div>
-              <div class="in_right right_PS"></div>
-            </div>
-            <div class="innerLine_AI">
-              <div class="in_left"></div>
-              <div class="in_right right_AI"></div>
-            </div>
-            <div class="innerLine_ID">
-              <div class="in_left"></div>
-              <div class="in_right right_ID"></div>
-            </div>
-            <div class="innerLine_HTML">
-              <div class="in_left"></div>
-              <div class="in_right right_HTML"></div>
-            </div>
-            <div class="innerLine_CSS">
-              <div class="in_left"></div>
-              <div class="in_right right_CSS"></div>
-            </div>
-            <div class="innerLine_JS">
-              <div class="in_left"></div>
-              <div class="in_right right_JS"></div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
+    </div>
+
+
+
+
+
 </body>
 </html>
+
+
+
+
+

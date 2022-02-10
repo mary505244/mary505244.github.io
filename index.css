@@ -267,6 +267,12 @@ Page Styles
     transform: scaleX(1);
 }
 
+.fa-arrow-down{
+  /* border: tomato 3px solid; */
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
 /*=======================
 左側menu(底部版權) Styles
 =========================*/
@@ -324,8 +330,8 @@ Page Styles
   transform: scale(1.2) translateY(-5px);
 }
 .user-profile {
-    padding: 30px 10px 15px 50px;
-    border: blue 2px solid;
+    padding: 30px 0px 15px 50px;
+    border: rgb(38, 209, 58) 2px solid;
     /* width: 20rem; */
 
 }
@@ -334,11 +340,18 @@ Page Styles
 右側page-homes(頭貼) Styles
 =========================*/
 
-/* .profile-details{
-padding: 20px;
+.profile-details{
+  display: flex;
+/* padding: 20px; */
 border: blue 2px solid;
+margin-left: -25px;
 
-} */
+}
+
+.profile-right{
+  display: flex;
+  flex-direction: column;
+}
 
 
 .user-img{
@@ -347,6 +360,8 @@ border: blue 2px solid;
   /* width: 200px; */
   position: relative;
   /* max-width: 10rem; */
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
 
 }
 
@@ -373,7 +388,7 @@ width: 170px;
 height: 160px;
 border-radius: 50%;
 position: absolute;
-top: 10px;
+top: 60px;
 right: 15px;
 /* height: 20rem; */
 }
@@ -405,53 +420,78 @@ right: 15px;
 
 }
 
+.cn-name{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(228, 90, 150);
+    font-family: "Roboto", sans-serif;
+    /* border: springgreen solid 2px; */
+    text-align: center;
+    padding-top:10px;
+}
+
+.cn-name i{
+  font-size: 10px;
+
+}
+
+.en-name{
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  /* line-height: 1.8; */
+  color: rgb(228, 90, 150);
+  font-family: 'Caveat', cursive; 
+  /* border: springgreen solid 2px; */
+  text-align: center;
+  padding-bottom:5px;
+
+}
+
+ 
 /*=======================
 右側page-homes(介紹) Styles
 =========================*/
 
-.sm-text {
+/* .sm-text {
     letter-spacing: 2.1px;
     font-weight: normal;
     color: #222222;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
-}
+} */
 
-.name {
+/* .name {
     font-size: 40px;
     text-transform: uppercase;
     margin: 15px 0px;
     color: #222222;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-}
+} */
 
-.role {
+/* .role {
     font-size: 18px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
     color: #222222;
-}
+} */
 
-.text {
-   
+.profile-text {
+    width: 300px;
     font-size: 15px;
+    padding: 50px 0px 10px 0px;
+    /* margin-left: 50px; */
+    border: springgreen 3px solid;
 }
 
-.pr-list {
-    margin: 30px 0px;
-    
-}
-
-.pr-list ul li {
-    margin-bottom: 8px;
-}
-
-.pr-list ul li i {
-    width: 18px;
+.profile-text p{
+  letter-spacing: 1.8px;
+  color: rgb(224, 105, 171);
 }
 
 .social-icons ul {
@@ -489,7 +529,7 @@ right: 15px;
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 1.8;
-    color: #000;
+    color: rgb(223, 93, 134);
 }
 
 .pg-sub-title {
@@ -553,6 +593,147 @@ right: 15px;
   from{border-right-color: rgba(22, 17, 17, 0.75);}
   to{border-right-color: transparent;}
 }
+
+
+
+
+
+
+
+
+
+.edu, .hobby {
+  /* float: left; */
+  width: 100%;
+  border: rgba(0, 0, 0, 0.6) solid 1px;
+  padding: 20px 3px ;
+  /* margin-right: 70px; */
+  /* padding-left: 0px; */
+}
+
+.edu h3, .hobby h3{
+  color: #a58e9b;
+  letter-spacing: 2px;
+  /* border: rgba(0, 0, 0, 0.6) solid 1px; */
+  font-weight: 300;
+  /* padding-right: 10px; */
+
+}
+
+.edu i, .hobby i{
+  padding-right: 5px;
+
+}
+
+.edu small {
+  display: block;
+  opacity: 0.7;
+}
+
+.edu ul  {
+  /* position: relative; */
+  /* border: rgba(0, 0, 0, 0.6) solid 1px; */
+  margin-top: -20px;
+  padding: 5px 0px;
+}
+
+.edu ul li {
+  position: relative;
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.edu ul li:hover::before {
+  animation: circle 1.2s infinite;
+}
+
+.edu ul li span {
+  transition-duration: 0.3s;
+  color: #c573e0;
+}
+
+.edu ul li:hover span {
+  color: #a41eb3;
+}
+
+@keyframes circle {
+  from {
+    box-shadow: 0 0 0 0px #c86fcb;
+  }
+  to {
+    box-shadow: 0 0 0 6px rgba(150, 27, 134, 0);
+  }
+}
+
+.edu ul li:first-of-type::before {
+  width: 10px;
+  height: 10px;
+  left: -2px;
+}
+
+.edu ul li:last-of-type {
+  padding-bottom: 3px;
+}
+
+.edu ul li:last-of-type::after {
+  border-radius: 1.5px;
+}
+
+.edu ul li::before,  .edu ul li::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.edu ul li::before {
+  width: 7px;
+  height: 7px;
+  border: 3px solid #a64ac5;
+  background: #ffffff;
+  border-radius: 50%;
+  left: 0;
+  z-index: 1;
+}
+
+.edu ul li::after {
+  width: 3px;
+  height: 100%;
+  background: #b283c2;
+  left: 5px;
+  top: 0;
+}
+
+.hobby-list{
+  display: flex;
+}
+
+.hobby-list li{
+  /* border: steelblue 1px solid; */
+  margin: 0px 5px ;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobby-list small{
+  /* border: steelblue 1px solid; */
+  font-size: 5px;
+  text-align: center;
+  letter-spacing: 0.9px;
+  color: #6983a1;
+  /* margin: 0px 5px ; */
+  /* width: 60px; */
+}
+
+.hobby-icon{
+  /* width: 50px; */
+}
+
+
 
 
 

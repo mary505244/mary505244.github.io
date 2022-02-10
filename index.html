@@ -8,6 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <!-- <script src="index.js"></script> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"> 
 </head>
@@ -24,12 +25,14 @@
                     </div>
                     <div class="nav">
                         <ul>
-                            <li><a href="#Home">Home</a></li>
+                            <!-- <li><a href="#Home">Home</a></li> -->
                             <li><a href="#About">About</a></li>
-                            <li><a href="#Portfolio">Portfolio</a></li>
                             <li><a href="#WorkExperience">Work Experience</a></li>
-                            <li><a href="#Education">Education</a></li>
                             <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Portfolio">Portfolio<i class="fa fa-arrow-down"></i></a></li>
+                        </a></li>
+                            <!-- <li><a href="#Education">Education</a></li> -->
+                            
                         </ul>
                     </div>
 
@@ -42,51 +45,88 @@
         <div class="right-content-container">   
             <div class="main-content">
                     <!-- <div class="d-flex-align-center"> -->
-                        <div class="page" id="Home">
+                        <div class="page" id="About">
                             <div class="upperpage" >
                                 <div class="sec-title">
-                                    <div class="pg-sub-title">Home</div>
+                                    <div class="pg-sub-title">About</div>
                                     <div class="pg-title">My Profile</div>
                                 </div>
                             </div>
                             <div class="lowerpage" >
                                 <div class="user-img "> 
                                     <div class="amoeba"></div>
-                                    <img class="photo" src="me.jpg">  
+                                    <img class="photo" src="imgs/me.jpg">  
                                     <div class="social-icons">
+                                        <div class="cn-name">黃芳儀</div>
+                                        <div class="en-name">Annie</div>
+                                        <div class="cn-name">應徵職缺<i class="fa fa-arrow-down"></i></div>
+                                        <div class="en-name">Front-end Engineer</div>
                                         <ul>
                                             <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                                             <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                                            <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-
+                                            <li><a href="https://github.com/mary505244"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                                            <li><a href="mailto:a103251047@mail.shu.edu.tw"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div> 
                                 </div>
                                 <div class="user-profile ">
-                                    <div class="profile-details">
+                                    <div class="slogan-details">
                                         <p class="slogan english-slogan en-anim-typewriter">Whatever is worth doing is worth doing well  : )</p>  
-                                        <p class="slogan chinese-slogan cn-anim-typewriter">- 立志將前端美感與後端邏輯交融，打造極具巧心的作品</p>  
-
+                                        <p class="slogan chinese-slogan cn-anim-typewriter">- 喜歡將前端美感與後端邏輯交融，打造極具巧心的作品</p>  
                                         <!-- Do one thing at a time, and do well. -->
                                         <!-- Whatever is worth doing is worth doing well。任何值得做的事就值得把它做好！ -->
-                                        <div class="sm-text ">HELLO EVERYBODY, I AM</div>
-                                        <div class="name">Pavan Ramshetty</div>
-                                        <div class="role">前端工程師</div>
+                                        <!-- <div class="sm-text ">應徵職缺：</div> -->
+                                        <!-- <div class="name">Pavan Ramshetty</div> -->
+                                        <!-- <div class="role">前端工程師</div> -->
                                     </div>
-                                <div class="text">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</div>
-                                    <div class="pr-list">
-                                        <ul>
-                                            <li><i class="fa fa-phone" aria-hidden="true"></i> 90000XXXXX / 90XXXXXXXX</li>
-                                            <li><i class="fa fa-envelope" aria-hidden="true"></i> xxxxxxxxxxxxxx@gmail.com</li>
-                                        </ul>
+                                    <div class="profile-details">
+                                        <div class="profile-text">  
+                                            <p>從懵懂學習後端，</p>
+                                            <p>且實際運用於工作時，</p>
+                                            <p>幾經思考自身興趣與熱情，</p>
+                                            <p>並釐清前後端技術棧與前景，</p>
+                                            <p>而在自學與研究線上資源後，</p>
+                                            <p>願以 <b>前端為主，後端為輔</b> 進行深耕。</p>
+                                            <!-- <p>努力邁向前端深耕。</p> -->
+                                        </div>
+                                        <div class="profile-right">
+                                            <div class="edu" >
+                                                <h3><i class="fa fa-graduation-cap"></i>Education</h3>
+                                                <ul>
+                                                <li>
+                                                    <span>資策會 - Java雲端服務開發技術養成班</span>
+                                                    <small>2019 - 2020</small>
+                                                </li>
+                                                <li>
+                                                    <span>輔仁大學 - 餐旅管理學系</span>
+                                                    <small>2014 - 2018</small>
+                                                </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="hobby">
+                                                <h3><i class="fa fa-heart"></i>Personality / Hobby</h3>
+                                                <ul class="hobby-list">
+                                                    <li><img class="hobby-icon" src="imgs/think.svg"><small>觀察思考與分析</small></li>
+                                                    <li><img class="hobby-icon" src="imgs/magic.svg"><small>好奇新穎的事物</small></li>
+                                                    <li><img class="hobby-icon" src="imgs/beauty.svg"><small>發掘美麗的事物</small></li> 
+                                                    <li><img class="hobby-icon" src="imgs/music.svg"><small>影視與音樂</small></li>  
+                                                    <li><img class="hobby-icon" src="imgs/game.svg"><small>遊戲電玩</small></li>   
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
+                                          
+                                
                                 </div>
                             </div>
                         </div>
 
-                        <!-- 黃芳儀annie  立志將前端美感與後端邏輯交融，打造極具巧心的作品。
-                        FB git連結 信箱 興趣 (可用圖標:音樂 電玩 美 獵奇) -->
+                        <!--  
+                         興趣 (可用圖標:音樂 電玩 美 獵奇) 教育程度-->  
+                         
+                         
 
 
                         <div class="page" id="About">
@@ -102,10 +142,11 @@
                                     <img class="photo" src="me.jpg">
                                     <div class="social-icons">
                                         <ul>
-                                            <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                                            <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                            <!-- <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
+                                            <li><a href="https://github.com/mary505244">123</a></li>
+                                            <!-- <li><a href="https://github.com/mary505244"><i class="fa fa-github" aria-hidden="true"></i></a></li> -->
+                                            <li><a href="mailto:a103251047@mail.shu.edu.tw"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 
                                         </ul>
                                     </div> 
@@ -129,6 +170,12 @@
             </div>
         </div>
     </div>
+
+
+
+
+    
+
 
 
 

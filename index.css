@@ -1,7 +1,10 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Sans+TC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Sans+TC:wght@100&family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap'); */
+
 /*===========================================
 Base CSS
 ============================================*/
@@ -925,15 +928,13 @@ right: 15px;
   font-family: sans-serif;
   line-height: 1.5;
   border-radius: 1.5rem;
-  box-shadow: 0 1.5rem 6rem -1rem rgba(0, 0, 0, 0.3);
-  /* border:coral solid 5px ; */
+  box-shadow: 0 1.5rem 6rem -1rem rgba(38, 37, 37, 0.3);
 }
 
 .cards {
   position: relative;
   height: 600px;
   overflow: hidden;
-  /* width: 300%; */
 }
 
 .card {
@@ -1023,19 +1024,14 @@ right: 15px;
   padding-top: 1rem;
   background-color: inherit;
   font-size: 1.7rem;
-  letter-spacing: 0.1rem;
-  font-weight: 200;
+  letter-spacing: 0.35rem;
+  font-weight: 100;
   text-transform: capitalize;
   cursor: pointer;
   transition: transform 0.3s;
-  color: #5f6063;;
+  color: #ffffff;
 }
-/* .card__title::after {
-  content: "day " counter(card);
-  display: block;
-  transition: transform 0.3s;
-  transform-origin: 0% 50%;
-} */
+
 .card__title::before {
   top: calc(50% + .5rem);
   box-shadow: inset 0 0 0 0.3428571429rem;
@@ -1043,8 +1039,7 @@ right: 15px;
 }
 .card.is-active .card__title::before {
   box-shadow: inset 0 0 0 1.2rem;
-  color: #75767b;
-
+  color: #ffffff;
 }
 
 .skills__wrapper {
@@ -1057,6 +1052,14 @@ right: 15px;
   overflow: auto;
   transition: opacity 0.3s;
   opacity: 0;
+  
+  
+}
+
+.skills__img{
+  width: 2em;
+  border-radius: 10px;
+  margin-right:0.5em;
 }
 
 .skills__title {
@@ -1064,6 +1067,12 @@ right: 15px;
   margin-bottom: 0.25rem;
   white-space: nowrap;
   background-color: inherit;
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  font-family: 'Neucha', cursive;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 .skills__title::before {
   font-size: 1.6em;
@@ -1087,11 +1096,18 @@ right: 15px;
 }
 
 .skills__info {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.1em;
+  letter-spacing: 0.18em;
+  font-family: "Noto Sans TC", Arial, sans-serif;
 }
+
 .skills__info span {
   color: rgb(255, 255, 255);
-  /* background-color: transparent; */
+}
+
+.skills__info img {
+  width:3em;
 }
 
 

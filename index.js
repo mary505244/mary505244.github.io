@@ -41,6 +41,5 @@ window.onload=function(){
         card.style.transform = `translateY(calc(${i / count} * (100% - 1.5rem)))`;
     });
     };
-  }
-
+}
 

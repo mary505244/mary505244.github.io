@@ -1317,7 +1317,7 @@ right: 10%;
   text-align: center;
   margin: 0px;
   padding: 1vh;
-  letter-spacing: 0.3vh;
+  letter-spacing: 0.5vh;
 
 }
 
@@ -1326,7 +1326,7 @@ right: 10%;
   text-align: center;
   margin: 0px;
   padding: 1vh;
-  letter-spacing: 0.1vh;
+  letter-spacing: 0.3vh;
   font-weight: 700;
 }
 
@@ -1397,6 +1397,15 @@ position: relative;
   /* align-self: center; */
 }
 
+.blog-gif-xl{
+  width: 70%;
+  /* height: 80vh; */
+  /* margin: 10vh ; */
+  /* margin-top: 0vh; */
+  /* margin: 10px 10px 90px 10px ; */
+  /* align-self: center; */
+}
+
 .ec-gif-large{
   width: 90vh;
   /* height: 80vh; */
@@ -1406,8 +1415,10 @@ position: relative;
 }
 
 .ec-gif-middle{
-  width: 80vh;
-  margin-bottom: 7px;
+  width: 75vh;
+  /* padding: 0px 20vh; */
+  margin: 0px 10vh;
+  /* border: olivedrab 2px solid; */
   /* height: 80vh; */
   /* margin: 0px ; */
   /* align-self: center; */

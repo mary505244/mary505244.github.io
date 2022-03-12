@@ -1,7 +1,6 @@
-
-
-
 window.onload=function(){
+    
+
     let card = {};
 
     card.wrap = document.querySelector('.cards');
@@ -41,5 +40,27 @@ window.onload=function(){
         card.style.transform = `translateY(calc(${i / count} * (100% - 1.5rem)))`;
     });
     };
+
+    // const swiper = new Swiper('.swiper', {
+    //     // Optional parameters
+    //     direction: 'vertical',
+    //     loop: true,
+      
+    //     // If we need pagination
+    //     pagination: {
+    //       el: '.swiper-pagination',
+    //     },
+      
+    //     // Navigation arrows
+    //     navigation: {
+    //       nextEl: '.swiper-button-next',
+    //       prevEl: '.swiper-button-prev',
+    //     },
+      
+    //     // And if we need scrollbar
+    //     scrollbar: {
+    //       el: '.swiper-scrollbar',
+    //     },
+    //   });
 }
 

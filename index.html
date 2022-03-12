@@ -8,9 +8,37 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
     <link href="/css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
     <script src="index.js"></script>
+
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+      
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        // direction: 'vertical',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+        });
+      </script>
 </head>
 <body>
 	<div class="wrapper">  
@@ -35,6 +63,7 @@
                                 <li><a href="#Portfolio/electronic-commerce/1">E-Commerce (5 pages)</a></li>
                                 <li><a href="#Portfolio/calculator/1">Calculator (1 pages)</a></li>
                                 <li><a href="#Portfolio/blog/1">Blog (to be continued)</a></li>
+                                <li><a href="#Portfolio/petpet/1">Project (2 pages)</a></li>
                             </ul>
                         </a></li>
                             <!-- <li><a href="#Education">Education</a></li> -->
@@ -973,7 +1002,93 @@
                         </div>
                         
                     </div>
+                 </div>
+
+
+
+
+
+
+                <div class="page" id="Portfolio/petpet/1">                   
+                    <p class="portfolio-description">
+                        <span class="portfolio-name">資策會畢業專題 - PetPet寵物平台：</span><br/>
+                        系統包含：會員功能（個資、好友、儲值管理）、找夥伴（領/送養、揪團管理）、寵物用品買賣、寵物日記與相簿、知識討論區<br/>
+                        使用技術：Java Servlet + JSP + Oracle + Tomcat
+                    </p>
+
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide"><img src="../imgs/gif/petpet/home-logo.png" alt="home-logo" /></div>
+                          <div class="swiper-slide"><img src="../imgs/gif/petpet/home-adopt.png" alt="home-adopt" /></div>
+                          <div class="swiper-slide"><img src="../imgs/gif/petpet/home-group.png" alt="home-group" /></div>
+                          <div class="swiper-slide"><img src="../imgs/gif/petpet/home-trade.png" alt="home-trade" /></div>
+                          <div class="swiper-slide"><img src="../imgs/gif/petpet/home-album.png" alt="home-album" /></div>
+                          <div class="swiper-slide"><img src="../imgs/gif/petpet/home-album2.png" alt="home-album2" /></div>
+                          <div class="swiper-slide"><img src="../imgs/gif/petpet/home-knowledge.png" alt="home-knowledge" /></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                      
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <div class="next-page heartbeat"> 
+                            <p>next</p>
+                            <a href="#Portfolio/petpet/2">
+                                <img src="imgs/next-page.svg" alt="next-page" />
+                            </a> 
+                        </div>
+
+                      </div>     
+
             </div>
+
+
+
+
+
+
+            <div class="page" id="Portfolio/petpet/2">                   
+                <p class="portfolio-description">
+                    <span class="portfolio-name">資策會畢業專題 - PetPet寵物平台：</span><br/>
+                    專案執掌：知識討論區（文章、留言、評分、檢舉管理）、全平台介面排版與設計
+                </p>
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-1.png" alt="knowledge-1" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-2.png" alt="knowledge-2" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-3.png" alt="knowledge-3" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-4.png" alt="knowledge-4" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-5.png" alt="knowledge-5" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-6.png" alt="knowledge-6" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-7.png" alt="knowledge-7" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-8.png" alt="knowledge-8" /></div>
+                      <div class="swiper-slide"><img class="knowledge-img" src="../imgs/gif/petpet/knowledge-9.png" alt="knowledge-9" /></div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <div class="previous-page heartbeat"> 
+                        <p>back</p>
+                        <a href="#Portfolio/petpet/1">
+                            <img src="imgs/previous-page.svg" alt="previous-page" />
+                        </a> 
+                    </div>
+
+                  </div>     
+
+        </div>
             </div>
         </div>
     </div>

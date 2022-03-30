@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Sans+TC:wght@100&family=Akaya+Telivigala&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap'); */
-
 /*===========================================
 Base CSS
 ============================================*/
@@ -16,7 +14,6 @@ Base CSS
 }
 
 html {
-  /* height: 100%; */
   scroll-behavior:smooth;
 }
 body {
@@ -106,104 +103,31 @@ Display Styles
 ============================================*/
 
 .wrapper {
-  /* width: 100%;
-  height: 100%; */
   display: flex;
-  /* flex-direction: row; */
   justify-content: start;
-  /* border: rgb(250, 5, 29) 5px solid; */
-
-  
-  
 }
-
-/* .left-content-container{
-position: fixed;
-border: rgb(44, 203, 239) 5px solid;
-width: 40%;
-margin-right: -200px;
-max-width: 40%;
-height:100vh ;
-padding: 0px 20px;
-} */
-
-
 
 .right-content-container{
 margin-left: 20%;
-/* width: 100s%; */
-/* border: rgb(211, 119, 20) 5px solid; */
 width: 80%;
-/* max-width: 60%; */
-/* border: rgb(231, 75, 8) 5px solid; */
-
-
-
-/* padding-left: 50px; */
-/* flex: 1; */
 }
-/* .d-flex{
-  display: flex;
-} */
 
 .page{
   display: flex;
-  /* align-items: flex-start; */
-  /* flex-wrap: wrap; */
   height:100vh ;
-  /* width: 100vh; */
-  /* border: #17080f 2px solid; */
   flex-direction: column;
   margin: 25px 0px ;
-  /* background-image: linear-gradient(90deg, rgba(250,250,250,1) 17%, rgba(255,235,244,1) 46%, rgba(251,214,228,1) 76%)
-  ,url(https://miro.medium.com/max/676/1*XEgA1TTwXa5AvAdw40GFow.png); */
-  /* background-image: ; */
-
   background-image   : url(../imgs/svg.png),
-                       /* url(https://mdn.mozillademos.org/files/11307/bubbles.png), */
                        linear-gradient(90deg, rgba(250,250,250,1) 17%, rgba(255,235,244,1) 46%, rgba(251,214,228,1) 76%);
-
   background-repeat  : no-repeat,no-repeat;
-
   background-position: bottom,center;
-
   background-size: contain,cover;
-
- 
-
 }
-
-
 
 .lowerpage{
   display: flex;
   height: 90vh;
-  /* width: 100vh; */
 }
-/* .d-flex-align-center-column{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.flex-1{
-  flex: 1;
-}
-.flex-2{
-  flex: 2;
-} */
-
-
-
-/*===========================================
-Page Styles
-============================================*/
-/* .container { */
-    /* height:s 100%; */
-    /* width: 200px; */
-    /* display: flex;
-    flex-direction: row;
-    position: relative; */
-/* } */
 
 /*===========================================
 左側menu Styles
@@ -211,23 +135,12 @@ Page Styles
 
 .left-content {
   position: fixed;
-  /* border: blue 2px solid; */
-  /* margin-right:-500px; */
-    /* width: 50vhs; */
-    /* overflow-y: asuto; */
-    /* height: 100%; */
-    background: #fff;
-    /* border-right: 1px solid rgba(221, 221, 221, 0.38); */
-    display: flex;
-    flex-direction: column;
-    height:90vh;
-
-
-    width: 20%;
-/* margin-right: -200px; */
-    
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height:90vh;
+  width: 20%;    
 }
-
 
 
 /*=======================
@@ -237,7 +150,6 @@ Page Styles
 .logo {
     display: flex;
     justify-content: flex-end;
-    /* background-color: rgb(223, 93, 134); */
 }
 
 .logo a {
@@ -260,7 +172,6 @@ Page Styles
 
 .nav {
     flex: 1;
-    /* display: flex; */
     justify-content: flex-end;
     margin: 25% 0px;
 }
@@ -328,7 +239,6 @@ Page Styles
   letter-spacing: 1.5px;
   font-weight: 800;
   position: relative;
-  /* border: springgreen 1px solid; */
 }
 
 .nav ul ul li a:hover {
@@ -375,9 +285,7 @@ Page Styles
     justify-content: flex-end;
     letter-spacing: 1.4px;
     color:rgba(199, 140, 154, 0.653);
-    /* border: olivedrab solid 2px; */
     font-weight: 700;
-    /* margin: 0px 20px; */
     font-size: 12px;
     font-style: italic;
     width: 100%;
@@ -393,10 +301,6 @@ Page Styles
 ============================================*/
 
 .main-content {
-  /* flex: 2;  */
-  /* width: 100%; */
-  /* overflow-y: auto; */
-  /* margin-left: 10px; */
   background: #fff;
   border-left: 1px solid rgba(221, 221, 221, 0.38);
   height: 100vh;
@@ -408,22 +312,12 @@ Page Styles
 右側page-about(社交icon) Styles
 =========================*/
 
-/* .social-icons ul{
-  border: blue 2px solid;
-
-} */
-
 .social-icons ul li {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
 
 }
-
-/* .social-icons ul li a {
-    padding: 5px 8px;
-    font-size: 16px;
-} */
 
 .social-icons ul {
   display: flex;
@@ -434,8 +328,6 @@ Page Styles
   padding: 15px 0px;
   font-size: 22px;
   transition: all .3s;
-  /* display: flex; */
-  /* border: steelblue 2px solid; */
 }
 
 
@@ -445,13 +337,10 @@ Page Styles
 }
 .user-profile {
     padding: 30px 0px 15px 50px;
-    /* border: rgb(190, 9, 72) 2px solid; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 20rem; */
-
 }
 
 /*=======================
@@ -461,12 +350,9 @@ Page Styles
 .profile-details{
   display: flex;
   justify-content: space-between;
-  /* padding: 20px; */
-  /* border: blue 2px solid; */
   margin:0px 0px;
   height: 80vh;
   width: 100%;
-
 }
 
 .profile-right{
@@ -477,25 +363,15 @@ Page Styles
 
 
 .user-img{
-  /* border: blue 2px solid; */
-  /* height: 100%; */
   width: 30%;
   position: relative;
-  /* max-width: 10rem; */
   padding-top: 50px;
-  /* padding-bottom: 50px; */
-
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* width: 100%; */
-
-
 }
 
 .amoeba {
-  /* border: steelblue 2PX solid; */
   margin: 0px 15%;    
   width: 28vh;
   height: 28vh;
@@ -506,7 +382,6 @@ Page Styles
   #e998ba,
   #f7a4be);
   z-index: 1;
-  /* background-size: 1600% 1600%; */
   animation: morph 10s ease-in-out infinite alternate,
   change 20s linear infinite alternate;
   position: relative;
@@ -521,10 +396,6 @@ border-radius: 50%;
 position: absolute;
 top: 8%;
 right: 10%;
-/* margin: 0% 50%;    */
-/* border: steelblue 2PX solid; */
-
-/* height: 20rem; */
 }
 
 @keyframes morph {
@@ -560,7 +431,6 @@ right: 10%;
     letter-spacing: 2px;
     color: rgb(228, 90, 150);
     font-family: "Roboto", sans-serif;
-    /* border: springgreen solid 2px; */
     text-align: center;
     padding-top:10px;
 }
@@ -574,10 +444,8 @@ right: 10%;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 2px;
-  /* line-height: 1.8; */
   color: rgb(228, 90, 150);
   font-family: 'Caveat', cursive; 
-  /* border: springgreen solid 2px; */
   text-align: center;
   padding-bottom:5px;
 
@@ -591,10 +459,6 @@ right: 10%;
     width: 45%;
     font-size: 15px;
     padding: 50px 0px 10px 0px;
-    /* margin: 0 5vh; */
-    /* margin-left: 50px; */
-    /* border: rgb(34, 26, 24) 3px solid; */
-    /* margin-left: 0px; */
 }
 
 .profile-text p{
@@ -634,24 +498,10 @@ right: 10%;
   }
 }
 
-
-
-
-/* .social-icons {} */
-
-/* .social-icons ul li:nth-child(1) a {
-    padding-left: 0;
-} */
-
 .social-icons ul li a:hover {
     color: #000;
     transform: scale(1.2) translateY(-5px);
 }
-/* .sec-title { */
-    /* width:50% ; */
-    /* margin-bottom: 50px; */
-    /* border: steelblue solid 2px; */
-/* } */
 
 .pg-title {
     margin-left: 10px;
@@ -679,8 +529,6 @@ right: 10%;
 }
 
 .slogan{
-  /* position: relative;
-    top: 50%;   */
     width: 100vh;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -705,9 +553,6 @@ right: 10%;
 }
 
 
-
-
-
 /* Animation */
 .en-anim-typewriter{
   animation: typewriter 1.8s steps(25) 1.8s 1 normal both ,
@@ -729,28 +574,15 @@ right: 10%;
 
 
 
-
-
-
-
-
-
 .edu, .hobby {
-  /* float: left; */
   width: 100vh;
-  /* border: rgba(0, 0, 0, 0.6) solid 1px; */
   padding: 20px 3px ;
-  /* margin-right: 70px; */
-  /* padding-left: 0px; */
 }
 
 .edu h3, .hobby h3, .work h3, .skills h3{
   color: #a58e9b;
   letter-spacing: 2px;
-  /* border: rgba(0, 0, 0, 0.6) solid 1px; */
   font-weight: 300;
-  /* padding-right: 10px; */
-
 }
 
 .edu i, .hobby i, .work i{
@@ -764,8 +596,6 @@ right: 10%;
 }
 
 .edu ul, .work ul {
-  /* position: relative; */
-  /* border: rgba(0, 0, 0, 0.6) solid 1px; */
   margin-top: -20px;
   padding: 5px 0px;
 }
@@ -843,7 +673,6 @@ right: 10%;
 }
 
 .hobby-list li{
-  /* border: steelblue 1px solid; */
   margin: 0px 5px ;
   width: 12vh;
   display: flex;
@@ -857,13 +686,10 @@ right: 10%;
 }
 
 .hobby-list small{
-  /* border: steelblue 1px solid; */
   font-size: 5px;
   text-align: center;
   letter-spacing: 0.9px;
   color: #6983a1;
-  /* margin: 0px 5px ; */
-  /* width: 60px; */
 }
 
  .jello-vertical:hover {
@@ -938,36 +764,29 @@ right: 10%;
 
 .work{
   margin-top: 10px;
-  /* border: #dc9393 2px solid; */
 }
 
 .work ul{
-  /* border: #bb93db 2px solid; */
 }
 
 .work span{
   font-weight: 900;
   font-size: 15px;
-  /* border: #bb93db 2px solid; */
 }
 
 .work span span{
   font-weight: 100;
   font-size: 10px;
   font-style: italic;
-
-  /* border: #bb93db 2px solid; */
 }
 
 .work-description{
   color: rgb(186, 139, 227);
-  /* border: #bb93db 2px solid; */
   font-style: italic;
 }
 
 .work ul ul{
   margin-top: 10px;
-  /* border: #9fa1e0 2px solid; */
 }
 
 .work .project span, .work .skill span{
@@ -978,7 +797,6 @@ right: 10%;
 .work .project{
   font-size: 13px;
   color: #395ecc;
-  /* border: #bb93db 2px solid; */
   line-height: 20px;
   margin-bottom: 1px;
 
@@ -988,19 +806,10 @@ right: 10%;
   font-size: 13px;
   color: #e63c93;
   font-weight: 800;
-  /* border: #bb93db 2px solid; */
   line-height: 20px;
   margin-top: 0px;
 
 }
-
-
-
-
-
-
-
-
 
 
 /*===========================================
@@ -1168,18 +977,18 @@ right: 10%;
   background-color: inherit;
   font-size: 1.4em;
   letter-spacing: 0.3em;
-  /* font-family: 'Neucha', cursive; */
   font-family: 'Neucha','Noto Sans TC', cursive, Arial, sans-serif;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
+
 .skills__title::before {
   font-size: 1.6em;
   box-shadow: none;
   transform: translate(-50%, -50%) scale(0);
   transition-delay: 0.3s;
 }
+
 .skills__title::after {
   width: 0.6em;
   height: 0.6em;
@@ -1187,10 +996,12 @@ right: 10%;
   transform: translate(-50%, -50%) scale(0);
   transition-delay: 0.5s;
 }
+
 .card.is-active .skills__title::before, .card.is-active .skills__title::after {
   transform: translate(-50%, -50%) scale(1);
   transition-delay: 0.3s;
 }
+
 .card.is-active .skills__title::after {
   transition-delay: 0.35s;
 }
@@ -1206,24 +1017,12 @@ right: 10%;
   color: rgb(255, 255, 255);
 }
 
-/* .skills__info img {
-  width:3em;
-} */
-
-
-
-
-
-
-
-
 
 /*===========================================
 右側page-Portfolio Styles
 ============================================*/
 
 .portfolio-page{
-  /* border: steelblue 5px solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1231,7 +1030,6 @@ right: 10%;
 }
 
 .portfolio-directions{
-  /* border: steelblue 5px solid; */
   color: #c04a83;
   letter-spacing: 1.3vh;
   font-weight: 700;
@@ -1313,7 +1111,6 @@ right: 10%;
 
 
 .portfolio-name{
-  /* border: olivedrab 2px solid; */
   text-align: center;
   margin: 0px;
   padding: 1vh;
@@ -1322,7 +1119,6 @@ right: 10%;
 }
 
 .portfolio-description{
-  /* border: olivedrab 2px solid; */
   text-align: center;
   margin: 0px;
   padding: 1vh;
@@ -1338,8 +1134,6 @@ right: 10%;
 display: flex;
 flex-wrap:wrap;
 justify-content: center;
-/* align-items: baseline; */
-/* border: steelblue 2px solid; */
 position: relative;
 }
 
@@ -1347,17 +1141,12 @@ position: relative;
   display: flex;
   justify-content: start;
   align-items: center;
-  /* flex-direction: column; */
 }
 
 .portfolio-item{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 1vh; */
-  /* border: rgb(17, 192, 38) 2px solid; */
-  /* align-self: center; */
-
 }
 
 .portfolio-item p{
@@ -1384,59 +1173,31 @@ position: relative;
 .gif{
   margin: 0vh 5vh;
   padding: 0vh 1vh;
-  /* width: 100%; */
   width: 50vh;
-  /* max-height: 40vh; */
-  /* align-self: center; */
-  /* border: olivedrab 2px solid; */
-
 }
 
 .todolist-gif{
   width: 45vh;
-  /* align-self: center; */
 }
 
 .blog-gif-xl{
   width: 70%;
-  /* height: 80vh; */
-  /* margin: 10vh ; */
-  /* margin-top: 0vh; */
-  /* margin: 10px 10px 90px 10px ; */
-  /* align-self: center; */
 }
 
 .ec-gif-large{
   width: 90vh;
-  /* height: 80vh; */
   margin: 0px ;
-  /* margin: 10px 10px 90px 10px ; */
-  /* align-self: center; */
 }
 
 .ec-gif-middle{
   width: 75vh;
-  /* padding: 0px 20vh; */
   margin: 0px 10vh;
-  /* border: olivedrab 2px solid; */
-  /* height: 80vh; */
-  /* margin: 0px ; */
-  /* align-self: center; */
 }
-
-/* .ec-gif-large img{ */
-  /* width: 80vh; */
-  /* height: 50vh; */
-  /* margin: 0px ; */
-  /* align-self: center; */
-/* } */
 
 .ec-gif-small{
   width: 60vh;
   margin: 10px 10px 60px 10px ;
-  /* align-self: center; */
 }
-
 
 .next-page, .previous-page{
   width: 10vh;
@@ -1444,7 +1205,6 @@ position: relative;
   top:75vh;
   right: 8vh;
   text-align: center;
-
 }
 
 .previous-page{
@@ -1456,8 +1216,6 @@ position: relative;
   font-weight: 900;
   margin-bottom:3px;
   letter-spacing: 3px;
-
-
 }
 
 .heartbeat {
@@ -1681,20 +1439,8 @@ position: relative;
   height:60vh;
 }
 
-
-.right-content-container{
-  /* margin-left: 20%; */
-  /* width: 100s%; */
-  /* border: rgb(211, 119, 20) 5px solid; */
-  /* width: 80%; */
-  /* max-width: 60%; */
-  /* border: rgb(231, 75, 8) 5px solid; */
-  
-  
-  
-  /* padding-left: 50px; */
-  /* flex: 1; */
-  }
+/* .right-content-container{
+  } */
 
 .logo, .pg-sub-title, .pg-title, .work h3, .skills h3 {
     display: none;
@@ -1735,16 +1481,11 @@ position: relative;
 .lowerpage{
   display: flex;
   flex-direction: column;
-  /* height: 90vh; */
-  /* width: 100vh; */
 }
 
 .amoeba {
-  /* margin: 0px 30%;     */
   width: 30vh;
-  /* width: 100%; */
   height: 30vh;
-  /* border: aqua 2px solid; */
 }
 
 .photo{
@@ -1755,16 +1496,11 @@ height: 26vh;
 .social-icons ul {
   display: flex;
   margin: 0px 22% ;
-    /* border: aqua 2px solid; */
-
 }
 
 .social-icons ul li a {
   font-size: 23px;
-  /* margin: 0px 22% ; */
   padding: 10px 20px ;
-  /* border-bottom: rgba(160, 156, 160, 0.714) 2px solid; */
-
 } 
 
 .user-profile{
@@ -1782,12 +1518,10 @@ height: 26vh;
 .slogan{
   letter-spacing: 1px; 
   margin-right: 20%;
-  /* border: aquamarine 2px solid; */
   width: 100%;
 }
 
 .english-slogan{
-  /* border-top: rgba(160, 156, 160, 0.714) 2px solid; */
   font-size: 15px;
 }
 
@@ -1806,55 +1540,36 @@ font-size: 10px;
   align-items: center; 
   justify-content: start;
   height: 100vh;
-  /* margin: 0px; */
-
 }
 
 .profile-text {
   
   width: 100%;
   font-size: 13px;
-  /* border-bottom: rgba(160, 156, 160, 0.714) 2px solid; */
-  /* border: aqua 2px solid; */
   padding: 10px;
-  /* padding: 0px; */
-  /* margin: 0px; */
 }
 
 .profile-text p{
-  /* margin-top: 0px; */
   letter-spacing: 3px;
-  /* border: aqua 2px solid; */
 }
 
 .profile-right{
   border-top: rgba(160, 156, 160, 0.714) 2px solid;
   width: 100%;
-  /* margin-bottom: 1000px; */
 }
 
 .edu, .hobby {
-  /* float: left; */
   width: 100%;
-  /* border: rgba(0, 0, 0, 0.6) solid 1px; */
   padding: 10px 3px 0px 3px  ;
-  /* margin-top: 0px; */
-  /* border-bottom: rgba(160, 156, 160, 0.714) 2px solid; */
-  /* margin-right: 70px; */
-  /* padding-left: 0px; */
 }
 
 .hobby-list{
   display: flex;
-  /* width: 60%; */
-  /* border: rgb(16, 7, 147) 2px solid; */
 }
 
 .hobby-list li{
   margin: 0px 1% ;
   width: 30%;
-  /* border: hotpink 2px solid; */
-
 }
 
 .hobby-list img{
@@ -1901,7 +1616,6 @@ font-size: 10px;
   .portfolio-item p{
     width: 100%;
     margin: 20px 0px 0px 0px ;
-    /* border: rgb(85, 11, 176) 2px solid; */
   }
 
   .gif{
@@ -1940,7 +1654,3 @@ font-size: 10px;
     height: 70%;
     margin-left: 5%; 
   }
-
-
-
- 
